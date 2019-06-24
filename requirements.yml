@@ -1,0 +1,6 @@
+- src: softasap.sa-hashicorp-vault
+  name: sa-hashicorp-vault
+- src: softasap.sa-nginx
+  name: sa-nginx
+- src: softasap.sa-acme-sh
+  name: sa-acme-sh
