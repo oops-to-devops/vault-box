@@ -6,16 +6,15 @@ readme: "Readme.md"
 authors:
     - "Vyacheslav Voronenko"
 dependencies:
-  - src: softasap.sa-hashicorp-vault
-    name: sa-hashicorp-vault
-  - src: softasap.sa-nginx
-    name: sa-nginx
-  - src: softasap.sa-acme-sh
-    name: sa-acme-sh
+  "softasap.sa-hashicorp-vault": ">=0.0.1"
+  "softasap.sa-nginx": ">=0.0.1"
+  "softasap.sa-acme-sh": ">=0.0.1"
 license:
     - "MIT"
 tags:
     - softasap
+    - hashicorp
+    - vault
 repository: "https://github.com/oops-to-devops/vault-box"
 documentation: "https://github.com/oops-to-devops/vault-box/blob/master/README.md"
 homepage: "https://www.softasap.com"
