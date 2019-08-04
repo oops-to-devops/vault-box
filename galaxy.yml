@@ -1,0 +1,22 @@
+namespace: "softasap"
+name: "vault_box"
+description: Configures hashicorp vault machine
+version: "0.0.1"
+readme: "Readme.md"
+authors:
+    - "Vyacheslav Voronenko"
+dependencies:
+  - src: softasap.sa-hashicorp-vault
+    name: sa-hashicorp-vault
+  - src: softasap.sa-nginx
+    name: sa-nginx
+  - src: softasap.sa-acme-sh
+    name: sa-acme-sh
+license:
+    - "MIT"
+tags:
+    - softasap
+repository: "https://github.com/oops-to-devops/vault-box"
+documentation: "https://github.com/oops-to-devops/vault-box/blob/master/README.md"
+homepage: "https://www.softasap.com"
+issues: "https://github.com/orgs/oops-to-devops/projects/1"

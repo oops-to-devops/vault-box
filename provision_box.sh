@@ -4,7 +4,7 @@ WORKSPACE=$(
   cd $(dirname "$0")
   pwd
 )
-BOX_PLAYBOOK=$WORKSPACE/box_vault.yml
+BOX_PLAYBOOK=$WORKSPACE/playbook.yml
 BOX_NAME=awx_box
 BOX_ADDRESS=$REMOTE_HOST
 BOX_USER=$BOX_DEPLOY_USER
